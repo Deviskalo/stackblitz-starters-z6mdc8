@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@200;300;700&display=swap');
+
+#profile-container {
+  font-family: 'REM', sans-serif;
+  background: #78c1f3;
+  width: 80%;
+  margin: 40px auto;
+  padding: 1.75rem;
+}
+
+#profile-avatar {
+  margin: 0px auto;
+  background: #9be8d8;
+  color: #383838;
+  padding: 10px;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #f7fdc7;
+  border-radius: 50%;
+}
+
+#profile-title {
+  line-height: 5px;
+  margin-top: 0px;
+  text-align: center;
+  color: #f8fdcf;
+}
+
+#profile-bio {
+  margin-top: 10%;
+  text-align: left;
+  color: #f8fdcf;
+}
+
+.btn-container {
+  width: 100px;
+  border-radius: 10px;
+  border: 1px solid #f7fdc7;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
