@@ -3,7 +3,7 @@
 #profile-container {
   font-family: 'REM', sans-serif;
   background: #78c1f3;
-  width: 80%;
+  width: 75%;
   margin: 40px auto;
   padding: 1.75rem;
 }
@@ -36,11 +36,28 @@
 .btn-container {
   width: 100px;
   border-radius: 10px;
-  border: 1px solid #f7fdc7;
+  border: 1px solid #cbccc0;
+  display: absolute;
+  /* background: #c4ce569c; */
 }
 
 .btns {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+}
+
+img {
+  border-radius: 29px;
+  display: none;
+}
+
+.blue {
+  background-color: blue;
+}
+
+a {
+  text-decoration: none;
+  color: #f7fdc7;
+  font-size: 1pc;
 }

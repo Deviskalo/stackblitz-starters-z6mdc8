@@ -36,16 +36,19 @@ function Profile() {
       </div>
       <div className="btns">
         <Button
+          className="blue"
           icon={'./assets/facebook.png'}
           text="Facebook"
           link="https://facebook.com/iskalo.00"
         />
         <Button
+          className="gray"
           icon={'./assets/github.png'}
           text="Github"
           link="https://github.com/Deviskalo"
         />
         <Button
+          className="pink"
           icon={'./assets/instagram.png'}
           text="Instagram"
           link="https://instagram.com/dev_iskalo"
